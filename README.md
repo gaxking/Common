@@ -11,5 +11,6 @@
   util.js 一些比较简单的工具
   wx.js 微信js封装
   
-其中util.js包含选择器，脚步下载，ajax，cookies操作,url参数读取,手机验证码倒计时
-		selector, getScript, setCookie, getCookie, GetQueryString, ajaxRequest, veriCodeCount
+其中util.js包含  
+选择器，脚步下载，ajax，cookies操作,url参数读取,手机验证码倒计时
+selector, getScript, setCookie, getCookie, GetQueryString, ajaxRequest, veriCodeCount
