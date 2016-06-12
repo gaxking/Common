@@ -44,13 +44,12 @@ define('Common/lazyload', function() {
 							if(dom.tagName.toLowerCase()=='img') {
 								dom.setAttribute('src', dataSrc);
 								dom.style.visibility = null;
-								dom.classList.add('fadeIn');
-								dom.parentNode.parentNode.replaceChild(dom, dom.parentNode);
 							}else{
 								dom.style.backgroundImage = 'url('+dataSrc+')';
-								dom.classList.add('fadeIn');
 							}
 
+							dom.classList.add('fadeIn');
+							dom.parentNode.parentNode.replaceChild(dom, dom.parentNode);
 							dom.removeAttribute('data-src');
 							queue.splice(queue.indexOf(dataSrc), 1);
 						};
